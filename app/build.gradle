@@ -31,5 +31,5 @@ dependencies {
 
 task assembleDebugAndCopyTask(type: Copy, dependsOn: "assembleDebug") {
     from 'build/outputs/apk'
-    into 'apk'q
+    into 'apk'
 }
